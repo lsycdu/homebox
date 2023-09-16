@@ -39,7 +39,7 @@ FROM alpine
 
 WORKDIR /app
 
-EXPOSE 3300
+EXPOSE 80
 
 COPY --from=server-build /app/build/server /app/server
 
